@@ -1,0 +1,18 @@
+<launch>
+<node name="arm_link_1_controller" pkg="ri_arm_control" type="indirect_kin_service.py">
+	<param name="group_name" value="arm_link_1"/>
+</node>
+<node name="arm_link_2_controller" pkg="ri_arm_control" type="indirect_kin_service.py">
+	<param name="group_name" value="arm_link_2"/>
+</node>
+<node name="arm_link_3_controller" pkg="ri_arm_control" type="indirect_kin_service.py">
+	<param name="group_name" value="arm_link_3"/>
+</node>
+<node name="arm_link_4_controller" pkg="ri_arm_control" type="indirect_kin_service.py">
+	<param name="group_name" value="arm_link_4"/>
+</node>
+<node name="arm_link_5_controller" pkg="ri_arm_control" type="indirect_kin_service.py">
+	<param name="group_name" value="arm_link_5"/>
+</node>
+
+</launch>
